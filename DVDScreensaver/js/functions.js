@@ -13,8 +13,3 @@ function getRandomNumber(start, end) {
 function GetRandomArray(array){
     return array[getRandomNumber(0,array.length-1)];
 }
-
-// Checks if a str is made out of only numbers
-function isNumeric(str) {
-    return /^\d+$/.test(str);
-}

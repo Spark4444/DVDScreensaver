@@ -13,10 +13,11 @@ body{
     justify-content: center;
     align-items: center;
     user-select: none;
+    overflow: hidden;
     margin: 0;
     padding: 0;
 }
-.placeHolder{
+.DVD{
     color: white;
     font-family: Helvetica;
     font-size: 2vw;

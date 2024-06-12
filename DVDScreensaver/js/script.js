@@ -1,5 +1,5 @@
 //Varaibles init
-const placeHolder = document.querySelector(".placeHolder");
+const DVD = document.querySelector(".DVD");
 let x = 0;
 let y = 0;
 let xSpeed = 0.25;
@@ -19,28 +19,28 @@ let animation = setInterval(() => {
 
   if (y <= -24.5) {
     ySpeed = reverse(ySpeed);
-    placeHolder.style.color = `${GetRandomArray(colorArray)}`;
+    DVD.style.color = `${GetRandomArray(colorArray)}`;
   }
 
   if (y >= 24) {
     ySpeed = reverse(ySpeed);
-    placeHolder.style.color = `${GetRandomArray(colorArray)}`;
+    DVD.style.color = `${GetRandomArray(colorArray)}`;
   }
   
   if (x >= 44) {
     xSpeed = reverse(xSpeed);
-    placeHolder.style.color = `${GetRandomArray(colorArray)}`;
+    DVD.style.color = `${GetRandomArray(colorArray)}`;
   }
 
   if (x <= -44.5) {
     xSpeed = reverse(xSpeed);
-    placeHolder.style.color = `${GetRandomArray(colorArray)}`;
+    DVD.style.color = `${GetRandomArray(colorArray)}`;
   }
 
   x += xSpeed;
   y += ySpeed;
 
-  placeHolder.style.left = `${x}vw`;
-  placeHolder.style.top = `${y}vw`;
+  DVD.style.left = `${x}vw`;
+  DVD.style.top = `${y}vw`;
 
 }, 25);
