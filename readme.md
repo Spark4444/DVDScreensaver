@@ -1,2 +1,2 @@
 # DVD Screensaver
-Website version of DVD screensaver.
+Web version of DVD screensaver.
