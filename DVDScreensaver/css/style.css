@@ -1,13 +1,13 @@
-*{
-    box-sizing: border-box
+* {
+    box-sizing: border-box;
 }
 
-html{
+html {
     height: 100%;
     width: 100%;
 }
 
-body{
+body {
     align-items: center;
     background-color: black;
     display: flex;
@@ -20,7 +20,7 @@ body{
     width: 100%;
 }
 
-.DVD{
+.DVD {
     color: white;
     font-family: Helvetica;
     font-size: 2vw;
